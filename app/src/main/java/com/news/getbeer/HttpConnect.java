@@ -14,7 +14,7 @@ public class HttpConnect {
     public static String getDataFromApi(String ApiLink)
     {
         String total = "";
-
+//comment added for git
         try {
             URL url = new URL(ApiLink);
             HttpURLConnection urlConnection = (HttpURLConnection)url
