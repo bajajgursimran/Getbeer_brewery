@@ -64,6 +64,7 @@ public ListViewAdapter(Context context, ArrayList<GetBeer> worldpopulationlist) 
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 	View itemView = inflater.inflate(R.layout.listview_item, parent, false);
+		//Added List
 
 		// Locate the TextViews in listview_item.xml
 		name = (TextView) itemView.findViewById(R.id.title);
