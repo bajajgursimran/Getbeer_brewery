@@ -1,0 +1,25 @@
+<resources>
+
+        <style name="AppBaseTheme" parent="android:Theme.Light">
+        </style>
+
+        <style name="AppTheme" parent="AppBaseTheme">
+        </style>
+
+        <style name="Theme.MyCompatTheme" parent="@style/Theme.AppCompat.Light">
+
+            <item name="android:actionBarStyle">@style/ActionBar</item>
+            <item name="android:textColorPrimary">@color/textColorPrimary</item>
+            <item name="actionBarStyle">@style/ActionBar</item>
+        </style>
+
+        <style name="ActionBar"
+            parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+            <item name="android:textColorPrimary">@color/textColorPrimary</item>
+            <item name="android:background">@color/colorPrimary</item>
+            <item name="background">@color/colorPrimary</item>
+        </style>
+
+        <color name="winBackground">@color/colorPrimary</color>
+        <color name="background">@color/colorPrimary</color>
+    </resources>
